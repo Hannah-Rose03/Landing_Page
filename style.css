@@ -1,5 +1,40 @@
-.entity {
+body {
+    height: 100vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.links {
+    display: flex;
+    flex-shrink: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    padding:0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
